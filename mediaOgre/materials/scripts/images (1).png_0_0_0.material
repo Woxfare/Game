@@ -1,0 +1,18 @@
+
+material "images (1).png_0_0_0"
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture "images (1).png"
+			}
+		}
+
+	}
+
+}

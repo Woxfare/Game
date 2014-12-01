@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple_event", "simple_event\simple_event.vcproj", "{98E3B8DD-9264-4BA5-9493-2ABB167173F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "programmer_sound", "programmer_sound\programmer_sound.vcproj", "{28B489A5-ABF1-4154-B488-568610D965E6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "realtime_tweaking", "realtime_tweaking\realtime_tweaking.vcproj", "{465B653C-8EA2-428A-8072-ED5047955669}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3ddemo", "3ddemo\3ddemo.vcproj", "{BF82A8D8-F76A-4711-97A7-43D35B0CF7DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98E3B8DD-9264-4BA5-9493-2ABB167173F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98E3B8DD-9264-4BA5-9493-2ABB167173F5}.Debug|Win32.Build.0 = Debug|Win32
+		{98E3B8DD-9264-4BA5-9493-2ABB167173F5}.Release|Win32.ActiveCfg = Release|Win32
+		{98E3B8DD-9264-4BA5-9493-2ABB167173F5}.Release|Win32.Build.0 = Release|Win32
+		{28B489A5-ABF1-4154-B488-568610D965E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28B489A5-ABF1-4154-B488-568610D965E6}.Debug|Win32.Build.0 = Debug|Win32
+		{28B489A5-ABF1-4154-B488-568610D965E6}.Release|Win32.ActiveCfg = Release|Win32
+		{28B489A5-ABF1-4154-B488-568610D965E6}.Release|Win32.Build.0 = Release|Win32
+		{465B653C-8EA2-428A-8072-ED5047955669}.Debug|Win32.ActiveCfg = Debug|Win32
+		{465B653C-8EA2-428A-8072-ED5047955669}.Debug|Win32.Build.0 = Debug|Win32
+		{465B653C-8EA2-428A-8072-ED5047955669}.Release|Win32.ActiveCfg = Release|Win32
+		{465B653C-8EA2-428A-8072-ED5047955669}.Release|Win32.Build.0 = Release|Win32
+		{BF82A8D8-F76A-4711-97A7-43D35B0CF7DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF82A8D8-F76A-4711-97A7-43D35B0CF7DA}.Debug|Win32.Build.0 = Debug|Win32
+		{BF82A8D8-F76A-4711-97A7-43D35B0CF7DA}.Release|Win32.ActiveCfg = Release|Win32
+		{BF82A8D8-F76A-4711-97A7-43D35B0CF7DA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

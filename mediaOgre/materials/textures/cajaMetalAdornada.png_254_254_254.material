@@ -1,0 +1,26 @@
+
+material cajaMetalAdornada.png_254_254_254
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.996094 0.996094 0.996094 1
+		}
+
+	}
+
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture cajaMetalAdornada.png
+			}
+		}
+
+	}
+
+}

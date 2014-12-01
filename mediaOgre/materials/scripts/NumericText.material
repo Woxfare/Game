@@ -1,0 +1,79 @@
+material NumericTextGreen
+ {
+   technique
+   {
+     pass
+     {
+       lighting off
+       scene_blend alpha_blend
+       texture_unit
+       {
+         texture numsGreen.png
+       }
+     }
+   }
+ }
+ 
+ material NumericTextYellow
+ {
+   technique
+   {
+     pass
+     {
+       lighting off
+       scene_blend alpha_blend
+       texture_unit
+       {
+         texture numsYellow.png
+       }
+     }
+   }
+ }
+ 
+ material NumericTextRed
+ {
+   technique
+   {
+     pass
+     {
+       lighting off
+       scene_blend alpha_blend
+       texture_unit
+       {
+         texture numsRed.png
+       }
+     }
+   }
+ }
+ 
+  material NumericTextBrown
+ {
+   technique
+   {
+     pass
+     {
+       lighting off
+       scene_blend alpha_blend
+       texture_unit
+       {
+         texture numsBrown.png
+       }
+     }
+   }
+ }
+ 
+ material RachaNum
+ {
+   technique
+   {
+     pass
+     {
+       lighting off
+       scene_blend alpha_blend
+       texture_unit
+       {
+         texture Multiplicador.png
+       }
+     }
+   }
+ }

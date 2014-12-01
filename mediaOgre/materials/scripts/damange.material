@@ -1,0 +1,17 @@
+material damange
+ {
+   technique
+   {
+     pass
+     {
+       lighting on
+       scene_blend alpha_blend
+       depth_write off
+	   depth_check false
+       texture_unit
+       {
+         texture Damange.png
+       }
+     }
+   }
+ }

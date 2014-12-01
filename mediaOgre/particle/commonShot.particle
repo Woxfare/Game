@@ -1,0 +1,16 @@
+particle_system shotSystem
+{
+	particle_width  	3
+	particle_height 	3
+	quota           	1
+    
+	// Area emitter
+	emitter Point
+	{
+		position 0 0 0
+		emission_rate 10
+		time_to_live 2
+		direction 1 0 1
+		velocity 100
+	}
+}

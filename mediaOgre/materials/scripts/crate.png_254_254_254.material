@@ -1,0 +1,17 @@
+
+material crate.png_254_254_254
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.996094 0.996094 0.996094 1
+			texture_unit
+			{
+				texture crate.png
+			}
+		}
+
+	}
+
+}
