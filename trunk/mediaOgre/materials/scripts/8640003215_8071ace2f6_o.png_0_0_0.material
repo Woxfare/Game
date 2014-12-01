@@ -1,0 +1,18 @@
+
+material 8640003215_8071ace2f6_o.png_0_0_0
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture 8640003215_8071ace2f6_o.png
+			}
+		}
+
+	}
+
+}

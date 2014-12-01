@@ -1,0 +1,18 @@
+
+material grass_1024.png_0_0_0
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture grass_1024.png
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,53 @@
+material Initial
+ {
+   technique
+   {
+     pass
+     {
+       lighting on
+       scene_blend alpha_blend
+       depth_write off
+	   depth_check false
+       texture_unit
+       {
+			texture waitingInitial.png
+       }
+     }
+   }
+ }
+ 
+ material GameWin
+ {
+   technique
+   {
+     pass
+     {
+       lighting on
+       scene_blend alpha_blend
+       depth_write off
+	   depth_check false
+       texture_unit
+       {
+			texture GameWin.png
+       }
+     }
+   }
+ }
+ 
+  material GameLose
+ {
+   technique
+   {
+     pass
+     {
+       lighting on
+       scene_blend alpha_blend
+       depth_write off
+	   depth_check false
+       texture_unit
+       {
+			texture GameLose.png
+       }
+     }
+   }
+ }

@@ -1,0 +1,15 @@
+material PistolType
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture Pistol_Type.png
+			}
+		}
+	}
+}

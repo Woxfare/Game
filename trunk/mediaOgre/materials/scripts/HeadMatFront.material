@@ -1,0 +1,35 @@
+// HeadMatFront genrated by blender2ogre 0.5.8
+
+material HeadMatFront 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass HeadMatFront
+        {
+            ambient 0.800000011920929 0.20740695297718048 0.14619337022304535 1.0
+            diffuse 0.6400000190734865 0.16592556485422794 0.11695469792119706 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}

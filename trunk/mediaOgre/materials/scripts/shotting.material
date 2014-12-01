@@ -1,0 +1,17 @@
+material shotting
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+		    depth_write off
+		    texture_unit
+		    {
+				tex_address_mode clamp
+				anim_texture shoot.png 4 0.1
+		    }
+		}
+	}
+}

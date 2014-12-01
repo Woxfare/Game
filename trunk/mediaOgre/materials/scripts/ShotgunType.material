@@ -1,0 +1,15 @@
+material ShotgunType
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture Shotgun_Type.png
+			}
+		}
+	}
+}

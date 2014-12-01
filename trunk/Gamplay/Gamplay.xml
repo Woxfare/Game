@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<woxfare>
+    <player name="PowerRanger" folder="DefaultPlayers">
+        <color r="255" g="255" b="255"/>
+        <life value="100"/>
+        <weapon name="Arma1"/>
+		<weapon name="Arma2"/>
+		<weapon name="Arma3"/>
+        <textures>
+            <Head Back="back.png" Bottom="bott.png" Front="face.png" Left="right.png" Right="left.png" Top="back.png"/>
+            <Body Back="" Bottom="" Front="tee.png" Left="" Right="" Top=""/>
+            <ArmL Back="arm.png" Bottom="bott.png" Front="arm.png" Left="arm.png" Right="arm.png" Top=""/>
+            <ArmR Back="arm.png" Bottom="bott.png" Front="arm.png" Left="arm.png" Right="arm.png" Top=""/>
+            <LegL Back="leg.png" Bottom="back.png" Front="leg.png" Left="leg.png" Right="leg.png" Top=""/>
+            <LegR Back="leg.png" Bottom="back.png" Front="leg.png" Left="leg.png" Right="leg.png" Top=""/>
+        </textures>
+    </player>
+    <map name="Test" folder="DefaultMaps">
+        <color r="49" g="49" b="49"/>
+        <terrain texture="grass_1024.png"/>
+        <materials>
+            <material name="terrain_bottom.png_0_0_0" texture="terrain_bottom.png" r="0" g="0" b="0"/>
+            <material name="grass_1024.png_0_0_0" texture="grass_1024.png" r="0" g="0" b="0"/>
+            <material name="terrain_front.png_0_0_0" texture="terrain_front.png" r="0" g="0" b="0"/>
+            <material name="images (1).png_0_0_0" texture="images (1).png" r="0" g="0" b="0"/>
+        </materials>
+        <objects>
+            <cube name="Metal" number="4">
+                <pos x="-1" y="0" z="8"/>
+                <pos x="-1" y="0" z="-12"/>
+                <pos x="9" y="0" z="4"/>
+                <pos x="-9" y="0" z="-4"/>
+            </cube>
+            <cube name="grass" number="27">
+                <pos x="1" y="0" z="3"/>
+                <pos x="1" y="0" z="2"/>
+                <pos x="1" y="1" z="2"/>
+                <pos x="2" y="0" z="2"/>
+                <pos x="1" y="0" z="1"/>
+                <pos x="2" y="0" z="1"/>
+                <pos x="1" y="1" z="1"/>
+                <pos x="2" y="1" z="1"/>
+                <pos x="2" y="0" z="0"/>
+                <pos x="1" y="0" z="0"/>
+                <pos x="1" y="1" z="0"/>
+                <pos x="2" y="1" z="0"/>
+                <pos x="2" y="1" z="-1"/>
+                <pos x="1" y="1" z="-1"/>
+                <pos x="2" y="2" z="-1"/>
+                <pos x="2" y="2" z="-2"/>
+                <pos x="1" y="2" z="-1"/>
+                <pos x="1" y="2" z="-2"/>
+                <pos x="2" y="2" z="-3"/>
+                <pos x="1" y="2" z="-3"/>
+                <pos x="2" y="2" z="-4"/>
+                <pos x="1" y="2" z="-4"/>
+                <pos x="2" y="0" z="-4"/>
+                <pos x="2" y="1" z="-4"/>
+                <pos x="1" y="0" z="-4"/>
+                <pos x="2" y="1" z="-5"/>
+                <pos x="1" y="1" z="-4"/>
+            </cube>
+            <cube name="toxo" number="12">
+                <pos x="12" y="0" z="-4"/>
+                <pos x="12" y="1" z="-4"/>
+                <pos x="13" y="0" z="-4"/>
+                <pos x="11" y="0" z="-4"/>
+                <pos x="12" y="0" z="-5"/>
+                <pos x="12" y="0" z="-3"/>
+                <pos x="-7" y="0" z="-11"/>
+                <pos x="-7" y="0" z="-10"/>
+                <pos x="-8" y="0" z="-10"/>
+                <pos x="-7" y="0" z="-9"/>
+                <pos x="-6" y="0" z="-10"/>
+                <pos x="-7" y="1" z="-10"/>
+            </cube>
+        </objects>
+        <doors>
+            <pos x="12" y="2" z="-4"/>
+            <pos x="-7" y="2" z="-10"/>
+        </doors>
+        <player x="2" y="2" z="-5"/>
+    </map>
+    <weapons>
+		<weapon name="Arma1" folder="DefaultWeapons">
+			<color r="255" g="0" b="0"/>
+			<type value="SimpleShot"/>
+			<features bullets="100" damage="50"/>
+		</weapon>
+		<weapon name="Arma2" folder="DefaultWeapons">
+			<color r="0" g="255" b="0"/>
+			<type value="MultipleShot"/>
+			<features bullets="70" damage="100"/>
+		</weapon>
+		<weapon name="Arma3" folder="DefaultWeapons">
+			<color r="0" g="0" b="255"/>
+			<type value="RapidShot"/>
+			<features bullets="350" damage="10"/>
+		</weapon>
+    </weapons>
+    <enemy name="Frank" folder="DefaultEnemies">
+        <color r="255" g="255" b="255"/>
+        <life value="150"/>
+        <points value="100"/>
+        <type value="BigBoss"/>
+        <item value="Vida"/>
+		<item value="Muni2"/>
+		<item value="Muni3"/>
+        <weapon name="Arma1"/>
+        <textures>
+            <Head Back="frankback.png" Bottom="boottt.png" Front="frankfacee.png" Left="frankleft.png" Right="frankrig.png" Top="frankface.png"/>
+            <Body Back="frankleftddd.png" Bottom="frankleftddd.png" Front="frankbody.png" Left="frankleftddd.png" Right="frankleftddd.png" Top="frankleftddd.png"/>
+            <ArmL Back="frankhand.png" Bottom="boottt.png" Front="frankhand.png" Left="frankhand.png" Right="frankhand.png" Top="frankleftddd.png"/>
+            <ArmR Back="frankhand.png" Bottom="boottt.png" Front="frankhand.png" Left="frankhand.png" Right="frankhand.png" Top="frankleftddd.png"/>
+            <LegL Back="frankleg.png" Bottom="frankface.png" Front="frankleg.png" Left="frankleg.png" Right="frankleg.png" Top=""/>
+            <LegR Back="frankleg.png" Bottom="frankface.png" Front="frankleg.png" Left="frankleg.png" Right="frankleg.png" Top=""/>
+        </textures>
+    </enemy>
+    <enemy name="Oro" folder="DefaultEnemies">
+        <color r="255" g="255" b="255"/>
+        <life value="50"/>
+        <points value="30"/>
+        <type value="Gunner"/>
+        <item value="Oro"/>
+		<item value="Muni2"/>
+		<item value="Muni3"/>
+        <weapon name="Arma1"/>
+        <textures>
+            <Head Back="PRArmTop.png" Bottom="PRArmTop.png" Front="PRHeadFront.png" Left="PRHeadLeft.png" Right="PRHeadRight.png" Top="PRArmTop.png"/>
+            <Body Back="PRBodyBack.png" Bottom="PRArmTop.png" Front="PRBodyFront.png" Left="PRBodyBack.png" Right="PRBodyBack.png" Top="PRArmTop.png"/>
+            <ArmL Back="PRArmBase.png" Bottom="" Front="PRArmBase.png" Left="PRArmBase.png" Right="PRArmBase.png" Top=""/>
+            <ArmR Back="PRArmBase.png" Bottom="" Front="PRArmBase.png" Left="PRArmBase.png" Right="PRArmBase.png" Top=""/>
+            <LegL Back="PRLegBase.png" Bottom="" Front="PRLegBase.png" Left="" Right="PRLegBase.png" Top="PRArmTop.png"/>
+            <LegR Back="PRLegBase.png" Bottom="" Front="PRLegBase.png" Left="PRLegBase.png" Right="" Top="PRArmTop.png"/>
+        </textures>
+    </enemy>
+    <enemy name="Vida" folder="DefaultEnemies">
+        <color r="255" g="255" b="255"/>
+        <life value="50"/>
+        <points value="30"/>
+        <type value="Runner"/>
+		<item value="Muni"/>
+		<item value="Muni2"/>
+		<item value="Muni3"/>
+        <textures>
+            <Head Back="PRArmTop.png" Bottom="PRArmTop.png" Front="PRHeadFront.png" Left="PRHeadLeft.png" Right="PRHeadRight.png" Top="PRArmTop.png"/>
+            <Body Back="PRBodyBack.png" Bottom="PRArmTop.png" Front="PRBodyFront.png" Left="PRBodyBack.png" Right="PRBodyBack.png" Top="PRArmTop.png"/>
+            <ArmL Back="PRArmBase.png" Bottom="" Front="PRArmBase.png" Left="PRArmBase.png" Right="PRArmBase.png" Top=""/>
+            <ArmR Back="PRArmBase.png" Bottom="" Front="PRArmBase.png" Left="PRArmBase.png" Right="PRArmBase.png" Top=""/>
+            <LegL Back="PRLegBase.png" Bottom="" Front="PRLegBase.png" Left="" Right="PRLegBase.png" Top="PRArmTop.png"/>
+            <LegR Back="PRLegBase.png" Bottom="" Front="PRLegBase.png" Left="PRLegBase.png" Right="" Top="PRArmTop.png"/>
+        </textures>
+    </enemy>
+    <item name="Muni" folder="DefaultItems">
+        <color r="255" g="255" b="255"/>
+        <type value="Ammo" quantity="50" weapon="Arma1"/>
+        <textures Back="gunarmorItem.png" Bottom="gunarmorItem.png" Front="gunarmorItem.png" Left="gunarmorItem.png" Right="gunarmorItem.png" Top="gunarmorItem.png"/>
+    </item>
+	<item name="Muni2" folder="DefaultItems">
+        <color r="255" g="255" b="255"/>
+        <type value="Ammo" quantity="10" weapon="Arma2"/>
+        <textures Back="gunarmorItem.png" Bottom="gunarmorItem.png" Front="gunarmorItem.png" Left="gunarmorItem.png" Right="gunarmorItem.png" Top="gunarmorItem.png"/>
+    </item>
+	<item name="Muni3" folder="DefaultItems">
+        <color r="255" g="255" b="255"/>
+        <type value="Ammo" quantity="70" weapon="Arma3"/>
+        <textures Back="gunarmorItem.png" Bottom="gunarmorItem.png" Front="gunarmorItem.png" Left="gunarmorItem.png" Right="gunarmorItem.png" Top="gunarmorItem.png"/>
+    </item>
+    <item name="Vida" folder="DefaultItems">
+        <color r="255" g="255" b="255"/>
+        <type value="Health" quantity="10"/>
+        <textures Back="lifeItem.png" Bottom="lifeItem.png" Front="lifeItem.png" Left="lifeItem.png" Right="lifeItem.png" Top="lifeItem.png"/>
+    </item>
+    <item name="Oro" folder="DefaultItems">
+        <color r="255" g="255" b="0"/>
+        <type value="Gold" quantity="100"/>
+        <textures Back="gold.png" Bottom="gold.png" Front="gold.png" Left="gold.png" Right="gold.png" Top="gold.png"/>
+    </item>
+    <dynamicobjects>
+        <cube name="Metal" number="4">
+            <pos x="-1" y="0" z="8"/>
+            <pos x="-1" y="0" z="-12"/>
+            <pos x="9" y="0" z="4"/>
+            <pos x="-9" y="0" z="-4"/>
+            <textures Back="1045742-xs.png" Bottom="1045742-xs.png" Front="1045742-xs.png" Left="1045742-xs.png" Right="1045742-xs.png" Top="1045742-xs.png"/>
+            <color r="99" g="99" b="99"/>
+        </cube>
+    </dynamicobjects>
+    <textures>
+        <texture name="PRArmBase.png"/>
+        <texture name="PRArmTop.png"/>
+        <texture name="PRBodyBack.png"/>
+        <texture name="PRBodyFront.png"/>
+        <texture name="PRHeadFront.png"/>
+        <texture name="PRHeadLeft.png"/>
+        <texture name="PRHeadRight.png"/>
+        <texture name="PRLegBase.png"/>
+        <texture name="boottt.png"/>
+        <texture name="frankback.png"/>
+        <texture name="frankface.png"/>
+        <texture name="frankfacee.png"/>
+        <texture name="frankleft.png"/>
+        <texture name="frankrig.png"/>
+        <texture name="grass_1024.png"/>
+        <texture name="gunarmorItem.png"/>
+        <texture name="images (1).png"/>
+        <texture name="lifeItem.png"/>
+        <texture name="tee.png"/>
+        <texture name="terrain_bottom.png"/>
+        <texture name="terrain_front.png"/>
+    </textures>
+    <game name="Gamplay" folder="DefaultGames" rounds="2">
+        <enemies number="3" min="5" max="15" bosses="3" interval="1">
+            <items number="3">
+                <item name="Muni"/>
+                <item name="Vida"/>
+                <item name="Oro"/>
+            </items>
+            <enemy name="Frank"/>
+            <enemy name="Oro"/>
+            <enemy name="Vida"/>
+        </enemies>
+        <player name="PowerRanger"/>
+        <map name="Test"/>
+    </game>
+</woxfare>
